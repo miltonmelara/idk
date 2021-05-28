@@ -1,0 +1,62 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-family: Chalkboard;
+    font-size: 50px;
+}
+.media{
+    height: 400px;
+    position: relative;
+    bottom:1035px;
+    left: 800px;
+    border-radius: 15px;
+}
+#main-menu,
+#sources{
+    font-size: 20px;
+
+}
+body,
+head,
+footer{
+    background-color: antiquewhite	;
+    font-family: Chalkboard ;
+}
+form{
+    background-color: cadetblue;
+    border: solid limegreen 7px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 500px;
+    position: relative;
+    right: 200px;
+    left: 865px;
+    bottom: 1010px;
+    text-align: center;
+}
+#Survey{
+    text-align: center;
+}
+.content{
+    width: 500px;
+    line-height: 1.7;
+}
+#intro{
+    margin-top:10px ;
+}
+#survey{
+    font-family: Chalkboard;
+}
+.caption{
+    font-weight: bold;
+    width: 450;
+}
+#submit{
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: midnightblue;
+    font-family: Chalkboard;
+    font-weight: bold;
+    color: white;
+}

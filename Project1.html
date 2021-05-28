@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soccer search</title>
+</head>
+<body>
+  <h1>Soccer History</h1>
+  <hr>
+  <hr>
+  <nav>
+    <ul id="main-menu"><!--link them to page´s divs-->
+    <li><a href="#Intro">Intro</a></li>
+    <li><a href="#History">History</a></li>
+    <li><a href="#Survey">Survey</a></li>
+    <li><a href="#End">Conclusion</a></li>
+    <li><a href="#Sources">Sources</a></li>
+  </ul>
+</nav>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="Intro">
+    <h2>Introduction</h2>
+   <p class="content">Soccer is now the most played sport on the world. Have you ever wondered how did it start? If the answer is <strong>yes</strong> then if the answer is <strong>no</strong> but you want to know; then keep reading this article</p><!--add p info-->
+  </div>
+  <main id="History">
+    <h2 class="title">History</h2>
+   <p class="content">Records trace the history of soccer back more than 2,000 years ago to ancient China. Greece, Rome, and parts of Central America also claim to have started the sport; but it was England that transitioned soccer, or what the British and many other people around the world call “football,” into the game we know today. The English are credited with recording the first uniform rules for the sport, including forbidding tripping opponents and touching the ball with hands.<br>
+
+As the sport developed, more rules were implemented and more historical landmarks were set. For example, the penalty kick was introduced in 1891. FIFA became a member of the International Football Association Board of Great Britain in 1913. Red and yellow cards were introduced during the 1970 World Cup finals. More recent major changes include goalkeepers being banned from handling deliberate back passes in 1992 and tackles from behind becoming red-card penalties in 1998.
+
+Some of the top players throughout history include Pele (Edson Arantes Do Nascimento) from Brazil, who scored six goals in the 1958 World Cup and helped Brazil claim its first title; Lev Yashin from Russia, who claimed to have saved more than 150 penalty shots during his outstanding goal-tending career; and Marco Van Basten from Holland, who won several very prestigious soccer awards during one year alone.<br> There are many debates over who the greatest soccer players are of all time; but players like Zinedine Zidane, Diego Maradona, Michel Platini, Lionel Messi, and Roberto Baggio make almost every list.</p><!--add p info-->
+  </main>
+  <div id="End">
+    <h2 class="title">Conclusion</h2>
+    <p class="content">In conclusion soccer has been always a sport were all cahnges in seconds and with a lot of history.</p><!--add p info-->
+  </div>
+</body>
+<footer id="Sources">
+  <h3>Sources</h3>
+  <ul id="sources">
+   <li><a target="_blank" href="https://www.athleticscholarships.net/history-of-soccer-football.htm#:~:text=Records%20trace%20the%20history%20of,the%20game%20we%20know%20today.">Athleticscholarships</a></li>
+  </ul>
+</footer>
+<div id="extra">
+<img class="media" src="https://images.ctfassets.net/ticbtmcn8ib7/6A1X91pyvwiYdgwkExmMmS/fbe8ec9955beef00822d7ba64d44c458/soccer-ball-1200.jpg?w=900&q=50" alt="Soccer ball being kicked">
+<form id="survey">
+  <h2 id="Survey" class="title">Survey</h2>
+  <p class="caption">Please answer this survey so we can know what sport´s history to publish next.</p>
+ <label for="favorite-sport">What is your favorite sport?</label>
+ <br>
+ <input id="favorite-sport" type="text">
+ <br><br>
+ <label for="rating">On a scale from 1-10 how much you like soccer?</label>
+ <br>
+ <p>1--------------------10</p>
+ <input id="rating" type="range" step="1">
+ <br>
+ <label for="least-favorite">Which is your least favorite sport?</label>
+ <br>
+ <select id="least-favorite">
+   <option>Soccer</option>
+   <option>Baseball</option>
+   <option>Hokey</option>
+   <option>Basketball</option>
+   <option>Athletic Swimming</option>
+ </select><!--add datalist,textarea(with attributes), radio, checkbox,number and submit button-->
+ <br>
+ <label for="data-list">Which sport would you like us tu resaearch about next?</label>
+ <input id="data-list" type="text" list="first-data-list">
+ <datalist id="first-data-list">
+ <option value="Volleyball"></option>
+ <option value="Hokey"></option>
+ <option value="Lacross"></option>
+ <option value="Baseball"></option>
+ <option value="Athletic Swimming"></option>
+ <option value="Basketball"></option> 
+ </datalist>
+ <br>
+ <article>Did you like our webpage?</article>
+ <label for="yes">Yes</label>
+ <input type="radio">
+ <label for="kind-of">Kind Of</label>
+ <input type="radio">
+ <label for="no">No</label>
+ <input type="radio">
+ <br>
+ <label for="textarea">Recomendations for our website:</label>
+ <textarea rows="10" cols="50" id="textarea" maxlength="100">Type them here</textarea>
+ <br>
+ <label for="number">From 1 to 10 how would you rate our website?</label>
+ <br>
+ <input type="number" min="1" max="10">
+ <br>
+ <br>
+ <input id="submit" type="submit" value="Submit">
+ <input type="">
+</form>
+</div>
+</body>
+</html>
